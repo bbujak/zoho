@@ -2,9 +2,17 @@
 
 ## It logs 8 hours for each weekday in specific month
 
+### Requires
+
+* Python 3.5.2
+* pip3
+
+### Install requirements
+* pip3 install -r requirements.txt
+
 ### Parameters
 
-*month=, Month for that you want to log time (1,2,3,4,5,6,7,8,9,10,11,12)
+* month=, Month for that you want to log time (1,2,3,4,5,6,7,8,9,10,11,12)
 * days_to_skip=, Days to skip (days from 1 to 31)
 * notes=, Notes added in time logged
 
