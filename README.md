@@ -25,8 +25,10 @@
 
 ###### Generate Auth Token - Browser Mode
 
+help url: https://www.zoho.com/projects/help/rest-api/get-tickets-api.html
+
 Log In Zoho
-Go to: https://accounts.zoho.com/apiauthtoken/create?SCOPE=ZohoCreator/creatorapi
+Go to: https://accounts.zoho.com/apiauthtoken/create?SCOPE=ZohoProjects/projectsapi,ZohoPC/docsapi
 authtoken is in response
 
 ###### User ID
