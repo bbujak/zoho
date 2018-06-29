@@ -14,8 +14,8 @@ class Task(object):
         self.authtoken =config.get('zoho_parameters', 'authtoken')
         self.user_id = config.get('zoho_parameters', 'user_id')
         self.base_url = "https://projectsapi.zoho.com/restapi/"
-        self.portal_id = config.get('zoho_parameters', 'user_id')
-        self.project_id = config.get('zoho_parameters', 'portal_id')
+        self.portal_id = config.get('zoho_parameters', 'portal_id')
+        self.project_id = config.get('zoho_parameters', 'project_id')
         self.task_id = config.get('zoho_parameters', 'task_id')
         self.add_task_url = "{}portal/{}/projects/{}/tasks/{}/logs/"\
             .format(self.base_url, self.portal_id, self.project_id, self.task_id)
