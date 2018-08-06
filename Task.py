@@ -35,6 +35,7 @@ class Task(object):
                     "owner": self.user_id,
                     "bill_status": "Billable",
                     "hours": 8,
+                    "total_minutes": 480,
                     "notes": notes
                 }
                 response = requests.post(self.add_task_url, params=params)
